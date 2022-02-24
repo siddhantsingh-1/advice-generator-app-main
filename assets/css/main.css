@@ -52,6 +52,13 @@
   height: 1.7rem;
 }
 
+@media only screen and (min-width: 1000px) {
+  .advice {
+    width: 38%;
+    max-width: none;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;

@@ -14,3 +14,10 @@ $quote-font-size: 28px;
     margin-left: auto;
     margin-right: auto;
 }
+
+// Responsive Mixin
+@mixin media-lg {
+    @media only screen and (min-width: 1000px) {
+        @content;
+    }
+}
