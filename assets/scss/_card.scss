@@ -1,58 +1,44 @@
 .advice {
-    width: 90%;
-    max-width: 408px;
-    @include center;
-    margin-top: 22vh;
-    border-radius: 10px;
-    text-align: center;
+	width: 90%;
+	max-width: 408px;
+	@include center;
+	margin-top: 22vh;
+	border-radius: 10px;
+	text-align: center;
 
-    &__heading {
-        margin: 1.8rem;
-        padding-top: 3rem;
-        letter-spacing: 0.3em;
-        font-size: 0.8rem;
-        font-weight: 600;
-    }
-    
-    &__quote {
-        width: 90%;
-        @include center;
-        margin-bottom: 1.5rem;
-    }
+	&__heading {
+		margin: 1.8rem;
+		padding-top: 3rem;
+		letter-spacing: 0.3em;
+		font-size: 0.8rem;
+		font-weight: 600;
+	}
 
-    &__divider {
-        color: $quote-color;
-    }
+	&__quote {
+		width: 90%;
+		@include center;
+		margin-bottom: 1.5rem;
+	}
 
-    &__dice__container {
-        width: 4rem;
-        height: 4rem;
-        display: flex;
-        @include center;
-        border-radius: 50%;
-        justify-content: center;
-        align-items: center;
-        transform: translateY(2rem);
-        transition: 0.2s ease-in-out;
+	&__divider {
+		color: $quote-color;
+	}
 
-        &:hover {
-            cursor: pointer;
-            box-shadow:
-            0 0 6px 3px #fff,  /* inner white */
-            0 0 10px 6px hsl(150, 100%, 66%), /* middle magenta */
-            0 0 14px 9px #0ff; /* outer cyan */
-            transition: 0.2s ease-in-out;
+	&__dice__container {
+		width: 4rem;
+		height: 4rem;
+		display: flex;
+		@include center;
+		border-radius: 50%;
+		justify-content: center;
+		align-items: center;
+		transform: translateY(2rem);
+		transition: 0.2s ease-in-out;
+	}
 
-            .advice__dice__icon {
-                transform: rotate(540deg) scale(1.1);
-                transition: 0.2s ease-in-out;
-            }
-        }
-    }
-
-    &__dice__icon {
-        width: 1.7rem;
-        height: 1.7rem;
-        transition: 0.2s ease-in-out;
-    }
+	&__dice__icon {
+		width: 1.7rem;
+		height: 1.7rem;
+		transition: 0.2s ease-in-out;
+	}
 }
