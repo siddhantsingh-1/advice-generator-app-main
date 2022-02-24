@@ -3,8 +3,14 @@ $quote-color: hsl(193, 38%, 86%);
 $neon-green: hsl(150, 100%, 66%);
 
 // Neutral
-$card-bg: hsl(217, 19%, 38%);
-$main-bg: hsl(217, 19%, 24%);
+$card-bg: #313A49;
+$main-bg: #202632;
 
 // Typography
 $quote-font-size: 28px;
+
+// Center Mixin
+@mixin center {
+    margin-left: auto;
+    margin-right: auto;
+}
