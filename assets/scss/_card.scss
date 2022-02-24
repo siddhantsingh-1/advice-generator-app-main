@@ -1,14 +1,15 @@
 .advice {
     width: 90%;
+    max-width: 408px;
     @include center;
-    margin-top: 30vh;
+    margin-top: 22vh;
     border-radius: 10px;
     text-align: center;
 
     &__heading {
         margin: 1.8rem;
-        padding-top: 2.5rem;
-        letter-spacing: 0.2em;
+        padding-top: 3rem;
+        letter-spacing: 0.3em;
         font-size: 0.8rem;
         font-weight: 600;
     }
@@ -16,12 +17,11 @@
     &__quote {
         width: 90%;
         @include center;
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
     }
 
     &__divider {
         color: $quote-color;
-        margin-bottom: 4rem;
     }
 
     &__dice__container {
@@ -29,12 +29,10 @@
         height: 4rem;
         display: flex;
         @include center;
-        position: absolute;
-        top: 30.3rem;
-        left: 43.5%;
         border-radius: 50%;
         justify-content: center;
         align-items: center;
+        transform: translateY(2rem);
     }
 
     &__dice__icon {
