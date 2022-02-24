@@ -1,2 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #323a49;
+  font-family: 'Manrope', sans-serif;
+}
+
+.card {
+  background-color: #4e5d73;
+}
+
+h2 {
+  color: #cee3e9;
+  font-size: 28px;
+}
+
+p {
+  color: #52ffa8;
+}
+
+.advice__dice__container {
+  background-color: #52ffa8;
+}
 /*# sourceMappingURL=main.css.map */
