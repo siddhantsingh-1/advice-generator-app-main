@@ -45,11 +45,31 @@
           align-items: center;
   -webkit-transform: translateY(2rem);
           transform: translateY(2rem);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.advice__dice__container:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 6px 3px #fff, 0 0 10px 6px #52ffa8, 0 0 14px 9px #0ff;
+          box-shadow: 0 0 6px 3px #fff, 0 0 10px 6px #52ffa8, 0 0 14px 9px #0ff;
+  /* outer cyan */
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.advice__dice__container:hover .advice__dice__icon {
+  -webkit-transform: rotate(540deg) scale(1.1);
+          transform: rotate(540deg) scale(1.1);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .advice__dice__icon {
   width: 1.7rem;
   height: 1.7rem;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 @media only screen and (min-width: 1000px) {

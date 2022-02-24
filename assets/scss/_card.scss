@@ -33,10 +33,26 @@
         justify-content: center;
         align-items: center;
         transform: translateY(2rem);
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+            cursor: pointer;
+            box-shadow:
+            0 0 6px 3px #fff,  /* inner white */
+            0 0 10px 6px hsl(150, 100%, 66%), /* middle magenta */
+            0 0 14px 9px #0ff; /* outer cyan */
+            transition: 0.2s ease-in-out;
+
+            .advice__dice__icon {
+                transform: rotate(540deg) scale(1.1);
+                transition: 0.2s ease-in-out;
+            }
+        }
     }
 
     &__dice__icon {
         width: 1.7rem;
         height: 1.7rem;
+        transition: 0.2s ease-in-out;
     }
 }
